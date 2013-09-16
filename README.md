@@ -1,4 +1,4 @@
-cdb
+alumni
 ===
 
-A simple webpage using Javascript, jQuery, and Node.JS for CDB Alumni
+A simple webpage for alumni of the Caroline D. Bradley Scholarship Program
