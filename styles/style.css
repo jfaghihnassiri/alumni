@@ -149,6 +149,55 @@ img {
 	left:85%;			/* Please make note of the brackets here:
 					(100% - left column width) plus (center column left and right padding) plus (left column left and right padding) plus (right column left padding) */
 }
+/* Navigation styles */
+.navigation {
+  background: url(images/navigation.png) top left repeat-x;
+  height: 134px;
+  overflow: auto;
+  display: block;
+  float: left;
+  width: 100%;
+}
+.navigation * {
+  padding:0;
+  margin:0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.navigation ul {
+  display: block;
+  float: left;
+  padding: 10px 0 0 0;
+  margin: 37px 0 0 20px;
+}
+.navigation ul li {
+  list-style: none;
+  float: left;
+  margin: 0 0 0 5px;
+}
+.navigation ul li a {
+  background: url(images/nav_right.png) top right no-repeat;
+  display: block;
+  padding: 0 13px 0 0;
+  color: #578ba0;
+  text-decoration: none
+}
+.navigation ul li.selected a,
+.navigation ul li.hover a {
+  background: url(images/nav_selected_right.png) top right no-repeat;
+  color: #578ba0;
+}
+
+.navigation ul li a span {
+  background: url(images/nav_left.png) top left no-repeat;
+  display: block;
+  padding: 15px 10px 10px 23px;
+}
+.navigation ul li.selected a span,
+.navigation ul li.hover a span {
+  background: url(images/nav_selected_left.png) top left no-repeat;
+}
 /* Footer styles */
 #footer {
 	clear:both;
