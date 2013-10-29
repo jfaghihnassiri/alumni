@@ -152,7 +152,7 @@ img {
 /* Navigation styles */
 .navigation {
   background: url(images/navigation.png) top left repeat-x;
-  height: 134px;
+  height: 60px;
   overflow: auto;
   display: block;
   float: left;
@@ -168,18 +168,18 @@ img {
 .navigation ul {
   display: block;
   float: left;
-  padding: 10px 0 0 0;
-  margin: 37px 0 0 20px;
+  padding: 0px 0 0 0;
+  margin: 0px 0 0 0px;
 }
 .navigation ul li {
   list-style: none;
   float: left;
-  margin: 0 0 0 5px;
+  margin: 0 0 0 0px;
 }
 .navigation ul li a {
   background: url(images/nav_right.png) top right no-repeat;
   display: block;
-  padding: 0 13px 0 0;
+  padding: 0 0px 0 0;
   color: #578ba0;
   text-decoration: none
 }
@@ -192,7 +192,7 @@ img {
 .navigation ul li a span {
   background: url(images/nav_left.png) top left no-repeat;
   display: block;
-  padding: 15px 10px 10px 23px;
+  padding: 15px 10px 10px 15px;
 }
 .navigation ul li.selected a span,
 .navigation ul li.hover a span {
