@@ -110,6 +110,12 @@ var renderProfile = function(alumnName, res) {
 		});
 	};
 	
+var portNum = process.argv[2];
+//console.log("Port: " + portNum);
+if(portNum != undefined) {
+	app.listen(Number(portNum));
+}
+else {
+	app.listen(8081);
+}
 
-
-app.listen(8081);
