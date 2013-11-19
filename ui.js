@@ -3,7 +3,7 @@ $(document).ready(function() {
 	// Put the copywrite in the footer
 	$('#footer').append('<div id="copywrite">Copyright &copy; ' + d.getFullYear() + ' Jhon Nassiri</div>');
 	// Put the navigation links in the left pane
-	$('#left').append(
+	$('#jnav').append(
 		"<h2>Navigation</h2>"+
 		"<ul>"+
 			"<li>About</li>"+
@@ -12,7 +12,7 @@ $(document).ready(function() {
 			"<li>Contact</li>"+
 		"</ul>");
 	// Put the social links in the right pane
-	$('#right').append(
+	$('#jlink').append(
 		"<h2>Links</h2>"+
 			"<h3>IDE</h3>"+
 			"<ul>"+
