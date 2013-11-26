@@ -47,7 +47,7 @@ app.get('/', function(req, res) {
 		res.sendfile('directory_page.html');
 	}
 
-	else res.sendfile('index.html');
+	else res.sendfile('nicks_index.html');
 	});
 
 app.get('/register', function(req, res) {
